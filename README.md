@@ -21,3 +21,8 @@
 ###### diff的差异化对比过程——【注意事项】：过程目的：为了找到由旧的树结构得到新的树结构，最高效的方式前提条件：已知新旧两棵Virtual DOM树的树结构diff的差异化对比过程——【总体流程】：依次取出新集合中的每个节点，通过key值，确定当前节点是否存在于旧集合中，如果存在，再进行其他的比较、判断，确定旧集合中的此节点是否需要移动。
 
 ![diff](https://upload-images.jianshu.io/upload_images/7566087-76e5ec97a7e7eafa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp "比较过程")
+
+
+#### diff算法的三个过程，三个层级
+
+![diff](https://img-blog.csdn.net/20180717182348969 "比较过程")
